@@ -1,7 +1,7 @@
-name: bosh-release
+name: Manifest Tests
 on:
   pull_request:
-  workflow_dispatch:  
+  workflow_dispatch:
 jobs:
   manifest:
     name: Manifest Tests
